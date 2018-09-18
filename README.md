@@ -181,7 +181,7 @@ If you pass **true** for the second argument, the array will only be flattened a
 fi.flatten([1, [2], [3, [[4]]]]);
 => [1, 2, 3, 4];
 
-fi.flatten([1, [2], [3, [[4]]]], true);
+fi.flatten([1, [2],    [3, [[4]]]      ], true);
 => [1, 2, 3, [[4]]];
 ```
 
